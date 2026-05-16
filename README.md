@@ -11,7 +11,7 @@
 
 This is the public side of my Hack The Box notebook. Writeups land here when a box retires or when a challenge is from a public CTF event. Active machines stay private until they retire. The point is not the points. The point is the patterns, which is why this repo has a `patterns/` folder that grows faster than the `challenges/` one.
 
-I am **Zawwar Sami**, an independent engineer and researcher in Mississauga, Canada. I write about engineering and AI at [zawwarsami.com](https://zawwarsami.com). The HTB profile lives at [app.hackthebox.com/public/users/2469522](https://app.hackthebox.com/public/users/2469522).
+I am **Zawwar Sami**, an independent engineer and researcher based in Canada. I write about engineering and AI at [zawwarsami.com](https://zawwarsami.com). The HTB profile lives at [app.hackthebox.com/public/users/2469522](https://app.hackthebox.com/public/users/2469522).
 
 ## What is in here
 
