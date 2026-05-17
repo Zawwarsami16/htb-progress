@@ -1,7 +1,8 @@
 # Hack The Box — Progress
 
-[![Profile](https://img.shields.io/badge/HTB-2469522-9FEF00?style=flat-square&logo=hackthebox&logoColor=black)](https://app.hackthebox.com/public/users/2469522)
-[![Site](https://img.shields.io/badge/site-zawwarsami.com-111?style=flat-square)](https://zawwarsami.com)
+[![Profile](https://img.shields.io/badge/HTB-2469522-ff003c?style=flat-square&logo=hackthebox&logoColor=ff003c&labelColor=0a0a0a)](https://app.hackthebox.com/public/users/2469522)
+[![Site](https://img.shields.io/badge/site-zawwarsami.com-ff003c?style=flat-square&labelColor=0a0a0a)](https://zawwarsami.com)
+[![Profile README](https://img.shields.io/badge/profile-Zawwarsami16-ff003c?style=flat-square&logo=github&logoColor=ff003c&labelColor=0a0a0a)](https://github.com/Zawwarsami16)
 
 <p align="center">
   <a href="https://app.hackthebox.com/public/users/2469522">
