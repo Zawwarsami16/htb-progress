@@ -10,4 +10,6 @@ These are not playbooks. Playbooks pretend the work is mechanical. The work is n
 | Pwn | [pwn.md](pwn.md) |
 | Reverse engineering | [rev.md](rev.md) |
 | Crypto | [crypto.md](crypto.md) |
+| Forensics | [forensics.md](forensics.md) |
+| Hardware | [hardware.md](hardware.md) |
 | Misc | [misc.md](misc.md) |
