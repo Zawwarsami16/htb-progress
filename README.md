@@ -1,3 +1,9 @@
+<div align="center">
+  <a href="https://github.com/Zawwarsami16">
+    <img src="https://raw.githubusercontent.com/Zawwarsami16/Zawwarsami16/main/assets/studio-mark.svg" alt="part of the Anteroom Studio surface · github.com/Zawwarsami16" width="900" height="56" style="max-width:100%"/>
+  </a>
+</div>
+
 # Hack The Box — Progress
 
 [![Profile](https://img.shields.io/badge/HTB-2469522-ff003c?style=flat-square&logo=hackthebox&logoColor=ff003c&labelColor=0a0a0a)](https://app.hackthebox.com/public/users/2469522)
