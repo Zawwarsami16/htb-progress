@@ -14,3 +14,4 @@ The point of this folder is compounding. The first time I see a Unicode identifi
 | [Strings before Ghidra](strings-before-ghidra.md) | Rev challenge named like a search problem |
 | [Rust per-byte closure array](rust-per-byte-closure-array.md) | Rev challenge with flag-length-many function pointers on the stack |
 | [JFFS2 overlay on OpenWrt](openwrt-jffs2-overlay.md) | Router image where `/etc/shadow` in squashfs is empty |
+| [EIP little-endian display vs memory](eip-little-endian-pattern-offset.md) | EIP shows ASCII chars but `--pattern o` returns -1 |
