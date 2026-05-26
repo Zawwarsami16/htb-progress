@@ -24,6 +24,14 @@ Assuming the validator does what its name says. Validators are written by humans
 
 Following the URL the UI uses when the JS bundle names a different one. The UI uses the public route. The undocumented route is the one with the bug.
 
+## When the obvious channels are closed
+
+If there is no error message, no reflection, no status-code split, the box is asking me to find a covert channel. Timing is the most reliable one. A request that takes 200 ms when the guessed character is wrong and 2.2 s when right is a confirmed oracle even if the response body is byte-identical. Discipline matters here: stop if the baseline request is already over 3 s — the noise floor makes every signal ambiguous. Use ASCII codepoints for the comparison column instead of literal characters, so a quote or a backslash in the value does not break the payload.
+
+Caches are the second covert channel. A page that responds in 8 ms when its key matches a previous request and 400 ms when it does not just leaked the key. Vary headers, cookies, query keys — anything the cache hashes — are tells. The `Age` header is a sometimes-leak; an `X-Cache: HIT` is the gift wrapping.
+
+The third is the path through a proxy. A reverse proxy that drops headers, normalizes path segments, or terminates TLS rewrites the request twice — once for itself, once for the origin. Find a header the proxy strips that the origin still trusts. Find a path the proxy normalizes that the origin parses differently. The bug lives where the two pieces of software disagree about what they just saw.
+
 ## What I keep handy
 
 - `curl` with `--data-urlencode` for URL-encoded body parameters that may contain `&` or `=`.
